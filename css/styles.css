@@ -1,0 +1,390 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GENERIC STYLES */
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; /* this is 1em */
+    line-height: 1.5;
+    color: #000000;
+}
+
+h1 {
+    font-size: 71px;
+    line-height: 106px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 1em; 
+    /* font-size is 14, so 1em = 14px */ 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background: #222222;
+}
+
+.container {
+    padding: 1em;
+}
+
+.logo {
+    background: #c78b07;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a:link,
+nav a:visited {
+    font-size: 18px;
+    color: #c78b07; 
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+nav .current a:link,
+nav .current a:visited {
+    color: #000000;
+    background: #c78b07;
+}
+
+/*SECTION SPECIFIC STYLES*/
+
+/*WELLCOME*/
+
+.header-welcome {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.header-welcome .container {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-welcome button {
+    background-color: #c78b07;
+    padding: 30px;
+    width: 250px;
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
+.search2 {
+    padding: 10px;
+    width: 95%;
+    border: none;
+}
+
+/* ABOUT SECTION*/
+
+.section-about {
+    background-color: #ffe6ac; ;
+}
+
+/* SERVICES SECTION*/
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.section-Services p {
+    padding: 10px;
+}
+
+.digital2 {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.digital {
+    width: 100%;
+}
+
+.marketing2 {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.marketing {
+    width: 100%;
+}
+
+.video2 {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.video {
+    width: 100%;
+}
+
+.web2 {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.web {
+    width: 100%;
+}
+
+.print2 {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.print{
+    width: 100%;
+}
+
+.section-Services button {
+    background-color: #222;
+    padding: 30px;
+    width: 200px;
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
+.marketing2 button {
+    background-color: #222;
+    padding: 30px;
+    width: 240px;
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
+.section-Services button {
+    text-decoration: none;
+    color: white;
+}
+
+/*OUR VISION SECTION*/
+
+.section-vision {
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    padding-top: -50px;
+    padding-bottom: 130px;
+    height: 200px;
+}
+
+.section-vision h3 {
+    color: white;
+}
+
+.section-vision p {
+    color: white;
+    padding: 10px;
+}
+
+.section-vision button {
+    background-color: rgba(34, 34, 34, 0.498);
+    border: 0.5px solid #c78c06;
+    padding: 30px;
+    width: 190px;
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
+.section-vision button {
+    text-decoration: none;
+    color: white;
+}
+
+/* OUR TEAM SECTION*/
+
+h4 {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.section-team p {
+    padding-left: 10px;
+}
+
+.johnd {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.john {
+    width: 100%;
+}
+
+.bobr {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.bob {
+    width: 100%;
+}
+
+/*CONTACT SECTION*/
+
+.forminput {
+    width: 100%;
+    height:25px;
+    text-align: left;
+}
+/* Sizes the first two text inputs */
+
+.formmessageinput {
+     width: 100%;
+     height:100px;
+     text-align: left;
+     padding-bottom: 50px;
+}
+
+.form button {
+    background-color: #222;
+    width: 60px;
+    font-size: 20px;
+    color: #c78b07;
+    margin-top: 20px;
+}
+
+/*HOURS SECTION*/
+
+table td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 10px;
+}
+
+.top {
+    background-color: #ffe6ac;
+    text-align: center;
+}
+
+/*lOCATION*/
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/*FOOTER*/
+
+footer {
+    color: #c78c06;
+    background-color: #222;
+    padding: 20px 10px 10px 10px;
+}
+
+
+/*DESKTOP STYLES*/
+
+@media screen and (min-width: 760px) {
+    
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        text-decoration: none;
+        margin: auto;
+        color: #c78c06;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+    nav a {
+        padding: 20px;
+    }
+
+    nav a:hover {
+        background-color: #c78c06;
+        color: #222;
+    }
+
+    nav a.home {
+        background-color: #c78c06;
+        color: #222;
+    }
+
+}
+
+
